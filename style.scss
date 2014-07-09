@@ -1,0 +1,49 @@
+// $base_blue: #348dd9;
+$base_blue: red;
+$lightest_blue: lighten($base_blue, 50%);
+$light_blue: lighten($base_blue, 30%);
+$dark_blue: darken($base_blue, 25%);
+$darkest_blue: darken($base_blue, 35%);
+
+#team_menu { background: $base_blue; border-bottom: 2px solid $dark_blue;
+	i { color: $light_blue; }
+	#team_name { color: #FFF; }
+}
+#client_body { 
+	#col_messages { 
+		.row-fluid {
+			#col_channels,.channels_list_holder { background: $dark_blue;
+				
+				//headers
+				#channels_header, #direct_messages_header, #groups_header { color: $light_blue; }
+
+				//default links
+				ul li a { text-shadow: none; color: $light_blue; 
+					i { color: $light_blue; }
+					.overflow-ellipsis .presence { 
+						&.away { background: $darkest_blue; }
+					}
+					&:hover { background: $darkest_blue; color: $lightest_blue; }
+				}
+				
+				//'more' links
+				.list_more { text-shadow: none; color: $light_blue !important; }
+
+				//scrollbar
+				#monkey_scroll_wrapper_for_channels_scroller {
+					.monkey_scroll_bar { background: $darkest_blue; }
+					.monkey_scroll_handle_inner { background: $light_blue; border: 3px solid $darkest_blue; }
+				}
+
+				//user menu
+				#user_menu { background: $base_blue; border-top: 2px solid $dark_blue; 
+					i { color: $light_blue; }
+					#connection_status { color: $light_blue; }
+				}
+			}
+			#col_channels_bg { background: $base_blue; 
+				#loading_team_menu_bg, #loading_user_menu_bg { background: $dark_blue; border: none; }
+			}
+		}
+	}
+}

@@ -1,0 +1,59 @@
+#team_menu {
+  background: red;
+  border-bottom: 2px solid maroon;
+}
+#team_menu i {
+  color: #ff9999;
+}
+#team_menu #team_name {
+  color: #FFF;
+}
+
+#client_body #col_messages .row-fluid #col_channels, #client_body #col_messages .row-fluid .channels_list_holder {
+  background: maroon;
+}
+#client_body #col_messages .row-fluid #col_channels #channels_header, #client_body #col_messages .row-fluid #col_channels #direct_messages_header, #client_body #col_messages .row-fluid #col_channels #groups_header, #client_body #col_messages .row-fluid .channels_list_holder #channels_header, #client_body #col_messages .row-fluid .channels_list_holder #direct_messages_header, #client_body #col_messages .row-fluid .channels_list_holder #groups_header {
+  color: #ff9999;
+}
+#client_body #col_messages .row-fluid #col_channels ul li a, #client_body #col_messages .row-fluid .channels_list_holder ul li a {
+  text-shadow: none;
+  color: #ff9999;
+}
+#client_body #col_messages .row-fluid #col_channels ul li a i, #client_body #col_messages .row-fluid .channels_list_holder ul li a i {
+  color: #ff9999;
+}
+#client_body #col_messages .row-fluid #col_channels ul li a .overflow-ellipsis .presence.away, #client_body #col_messages .row-fluid .channels_list_holder ul li a .overflow-ellipsis .presence.away {
+  background: #4d0000;
+}
+#client_body #col_messages .row-fluid #col_channels ul li a:hover, #client_body #col_messages .row-fluid .channels_list_holder ul li a:hover {
+  background: #4d0000;
+  color: white;
+}
+#client_body #col_messages .row-fluid #col_channels .list_more, #client_body #col_messages .row-fluid .channels_list_holder .list_more {
+  text-shadow: none;
+  color: #ff9999 !important;
+}
+#client_body #col_messages .row-fluid #col_channels #monkey_scroll_wrapper_for_channels_scroller .monkey_scroll_bar, #client_body #col_messages .row-fluid .channels_list_holder #monkey_scroll_wrapper_for_channels_scroller .monkey_scroll_bar {
+  background: #4d0000;
+}
+#client_body #col_messages .row-fluid #col_channels #monkey_scroll_wrapper_for_channels_scroller .monkey_scroll_handle_inner, #client_body #col_messages .row-fluid .channels_list_holder #monkey_scroll_wrapper_for_channels_scroller .monkey_scroll_handle_inner {
+  background: #ff9999;
+  border: 3px solid #4d0000;
+}
+#client_body #col_messages .row-fluid #col_channels #user_menu, #client_body #col_messages .row-fluid .channels_list_holder #user_menu {
+  background: red;
+  border-top: 2px solid maroon;
+}
+#client_body #col_messages .row-fluid #col_channels #user_menu i, #client_body #col_messages .row-fluid .channels_list_holder #user_menu i {
+  color: #ff9999;
+}
+#client_body #col_messages .row-fluid #col_channels #user_menu #connection_status, #client_body #col_messages .row-fluid .channels_list_holder #user_menu #connection_status {
+  color: #ff9999;
+}
+#client_body #col_messages .row-fluid #col_channels_bg {
+  background: red;
+}
+#client_body #col_messages .row-fluid #col_channels_bg #loading_team_menu_bg, #client_body #col_messages .row-fluid #col_channels_bg #loading_user_menu_bg {
+  background: maroon;
+  border: none;
+}
